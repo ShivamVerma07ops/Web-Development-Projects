@@ -1,0 +1,616 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+#home{
+width: 100vw; 
+height: 100vh;   
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100vw;
+    height:15vh;
+    background-color: white;
+    position: fixed;
+    top:0px;
+    z-index: 4;
+    box-shadow: 2px 2px 10px rgb(29, 28, 28);
+}
+.nav1{
+width: 100%;
+height:70%;
+background-color:black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nav2{
+    width: 100%;
+height:30%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+    list-style:none;
+    cursor: pointer;
+}
+.nav2 ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 ul li:hover{
+    color: rgb(109, 126, 19);
+}
+.leftnav{
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+.rightnav{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    width:100% ;
+    height: 50%;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    width:100%;
+    height: 50%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.loc{
+    width: 1em;
+    height: 1em;
+}
+.findus{
+    width: 4em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 15px;
+}
+.input input{
+    width: 15em;
+
+}
+.toll{
+    color: white;
+    font-size: 15px;
+}
+.no{
+    color: rgb(242, 159, 4);
+    font-size: 15px;
+    margin-left: 10px;
+}
+.main1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("main1.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+    
+.bg{
+    background-color: rgba(0, 0, 0, 0.411);
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+
+}
+.mainbox{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    .fspan{
+        color: white;
+        font-size: 34px;
+    }
+    .sspan{
+        color: white;
+        font-size: 55px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .tspan{
+        width: 48%;
+        height: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 50px;
+        border: 2px solid rgb(169, 41, 41);
+        overflow: hidden;
+
+    }
+    .continents{ 
+        width: 25%;
+        height: 100%;
+        padding: 0px 15px;
+
+
+    }
+    .continents select{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .countries{
+        width: 25%;
+        height: 100%;
+        padding: 0px 15px;
+
+    }
+    .countries select{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .budget{
+
+        width: 25%;
+        height: 100%; padding: 0px 15px;
+
+    }
+    .budget select{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .find{
+        width: 25%;
+        height: 100%;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+
+    }
+    #tour{
+        
+        width: 100vw;
+        height: 100vh;
+    }
+    .bestoff{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 75px;
+      
+
+    }
+    .best1{
+        font-size: 39px;
+        font-weight: 700;
+    }
+    .best2{
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+    .main21{
+        width: 100%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+    }
+    .main22{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+    }
+    .img1{
+        height: 80%;
+        width: 22%;
+        
+    }
+    .img11{
+        height: 80%;
+        width: 100%;
+        background-image: url("india.jpg");
+        background-size:100% 100%; }
+        .img12{
+            height: 80%;
+            width: 100%;
+            background-image: url("uk.jpg");
+            background-size:100% 100%;  }
+            
+            .img13{
+                height: 80%;
+                width: 100%;
+                background-image: url("spain.jpg");
+                background-size:100% 100%;  }
+                .img21{
+                    height: 80%;
+                    width: 100%;
+                    background-image: url("italy.jpg");
+                    background-size:100% 100%;  }
+                    .img22{
+                        height: 80%;
+                        width: 100%;
+                        background-image: url("japan.jpg");
+                        background-size:100% 100%;  }   
+                        .img23{
+                            height: 80%;
+                            width: 100%;
+                            background-image: url("turkey.jpg");
+                            background-size:100% 100%;  }     
+
+        .india{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(226, 228, 229);
+        }
+        .india1{
+            margin-left: 10px;
+        }
+    .india2{
+        margin-right: 10px;
+    }
+    #aboutus{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(main3.jpg);
+        background-size: 100% 100%;
+       
+        position: relative;
+    }
+    .main3{
+       
+        height: 100vh;
+        z-index: 3;
+        position:relative ;
+    }
+    .best11{
+        color: white;
+    }
+    .best21{
+        color: white;
+    }
+    .main31{
+        width: 100vw;
+        height: 62vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main311{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+flex-direction: column;
+        
+    }
+    .money{
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: white;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .money1{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 23px;
+        margin: 10px;
+
+    }
+    .money2{  
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .money3{
+        text-align: center;
+        width: 50%;
+        height: 20%;
+        margin-top: 10px;
+        color: white;
+        font-size: 10px;
+    }
+    .whychoose{
+        padding-top: 80px;
+    }
+    #travelblog{
+        width: 100vw;
+height: 100vh;
+    }
+   .main40{
+    border-radius: 100px;
+
+   }
+   .main43{
+    color: rgb(188, 79, 79);
+   }
+   .main41{
+    color: black;
+    font-size: 25px;
+    margin-top: 80px;
+   }
+    
+   #contactus{
+       
+    width: 100vw;
+    height: 22vh;
+    background-color:black;
+   }
+ 
+   .cutus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .cu1{
+    color: white;
+    font-size: 20px;
+   }
+   .cu2{
+    color: white;
+    font-size: 20px;
+   }
+   .cu3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+   .cu30{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 1s;
+   }
+   .cu30:hover{
+    transform:translateY(20px);
+
+   }
+    @media (max-width:900px){
+        nav{
+            height: 15%;
+           
+        }
+       
+        
+        .tspan{
+            width: 82%;
+            height: 5%;
+
+        }
+        .img1{
+            
+            width: 30%;
+        }
+        .money3{
+            width: 76%;
+        }
+        .main311{
+            width: 33%;
+            height: 100%;
+        }
+
+    }
+   
+    
+    @media (max-width:450px){
+        .leftnav{
+            font-size: 18px;
+            
+        }
+        #travelblog{
+            height: 200vh;
+        }
+        .cu1{
+            font-size: 11.5px;
+        }
+        .cu2{
+            font-size: 11.5px;
+            text-align: center;
+        }
+        .input input{
+            margin-right: 10px;
+            width: 8em;
+
+        }
+        .findus{
+            margin-right:7px;
+
+
+        }
+        .toll{
+            font-size: 11px;
+        }
+        .no{
+            font-size: 11px;
+            margin-left: 7px;
+        }
+        .nav2{
+            font-size: 13px;
+            gap: 18px;
+
+        }
+        .nav2 ul{
+            gap: 5%;
+        }
+        .fspan{
+            font-size: 24px;
+        }
+        .sspan{
+            font-size: 34px;
+        }
+        .tspan{
+            width: 91%;
+        }
+        .find{
+            font-size: 10px;
+        }
+        #tour{
+        
+            height: 200vh;
+            display: flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;}
+            .main21{
+                flex-direction: column;
+                gap: 30px;
+               
+            }
+            .main22{
+                flex-direction: column;
+                gap: 30px;  
+              }
+            .best1{
+                font: 30px;
+            }
+
+  .img1{
+    width: 66%;
+  }
+  .bestoff{
+    height: 20%;
+  }
+  #aboutus{
+    
+    height: 200vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+  }
+  .main31{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 370px;
+
+
+  }
+  .main311{
+    width: 90%;
+    height: 80%;
+
+  }
+  .money2{
+    height: 13%;
+  }
+  .best21
+  {
+    font-size: 16px;}
+
+        @media (max-width:380px){
+            .findus{
+                font-size: 12px;
+            }
+            .main45{
+                font-size: 15px;
+            }
+            .main41{
+                margin-top: 100px;
+            }
+            .toll{
+                font-size: 12px;
+            }
+            .no{
+                font-size: 10px;
+                margin-left: 6px;
+            }
+            .nav2 ul{
+                font-size: 11px;
+                
+            }
+            .fspan{
+                font-size: 22px;
+            }
+            .sspan{
+                font-size: 32px;               
+
+        }
+        .find{
+            font-size: 9px;
+        }
+            
+        }
+    
+    }
